@@ -15,13 +15,17 @@ Let G=![formula](https://latex.codecogs.com/svg.image?\left\langle\&space;V,E\&s
 be a balanced bipartite graph with n vertices and f edges and let
 ![formula](https://latex.codecogs.com/svg.image?c:E\&space;\rightarrow\&space;\{1,\&space;\ldots\&space;,k\})
 be a proper edge-coloring of G in k colors. 
-Then the number of rainbow perfect matchings in G is at most
+Then the number of rainbow perfect matchings in G is at most:
 
 <p align="center">
     <image src="https://latex.codecogs.com/svg.image?\binom{k}{n}\cdot\left(\frac{1&plus;o\left(1\right)}{e^2}\right)^n\cdot\left(\frac{f}{k}\right)^n">   
 </p>
 
-and the number of rainbow perfect matchings in G, for f=![formula](https://latex.codecogs.com/svg.image?n^2), is at least
+and let G=![formula](https://latex.codecogs.com/svg.image?\left\langle\&space;V,E\&space;\right\rangle) 
+be a balanced bipartite random graph with  vertices and f edges in 
+expectation and let ![formula](https://latex.codecogs.com/svg.image?c:E\&space;\rightarrow\&space;\{1,\&space;\ldots\&space;,k\}) 
+be a random edge-coloring of G in k colors. 
+Then the number of rainbow perfect matchings in G is at least:
 
  <p align="center">
     <image src="https://latex.codecogs.com/svg.image?\binom{k}{n}\cdot\left(\frac{1-o\left(1\right)}{e^2}\right)^n\cdot\left(\frac{f}{k}\right)^n">   
